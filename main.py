@@ -5,5 +5,10 @@ print("""
 ██║╚██╗██║██╔══╝  ██╔══██╗██║   ██║██║     ██╔══██║       ██║   ██╔══╝  ██║     ██╔══██║
 ██║ ╚████║███████╗██████╔╝╚██████╔╝███████╗██║  ██║       ██║   ███████╗╚██████╗██║  ██║
 ╚═╝  ╚═══╝╚══════╝╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝
-                                                                                        """)
-input("Press Enter to exit...")
+""")
+
+close_program = input("Do you want to close this program? y/n: ")
+if close_program.lower() == 'y':
+    print("Closing program...")
+else:
+    print("Program will keep running.")
