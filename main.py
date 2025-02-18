@@ -7,8 +7,10 @@ print("""
 ╚═╝  ╚═══╝╚══════╝╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝
 """)
 
-while true:
+while True:
     close_program = input("Do you want to close this program? y/n: ").lower()
+
+
     if close_program == 'y':
         print("Closing program...")
         break
@@ -16,4 +18,7 @@ while true:
         print("Program will keep running.")
     else:
         print("Invalid input. Please enter 'y' to close or 'n' to keep running the program.")
+
+    import time
+    time.sleep(1)
     
